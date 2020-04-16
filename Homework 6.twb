@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20183.19.0212.1312                               -->
+<workbook original-version='18.1' source-build='2018.3.4 (20183.19.0212.1312)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='NH_Contribution_v2' inline='true' name='federated.1e8ldf71p7umbe13rmf1a1y849gz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NH_Contribution_v2' name='textscan.1d5uq8z1a6tj8f1eq4rno13mbsww'>
+            <connection class='textscan' directory='C:/Users/dannypineau/Desktop' filename='NH_Contribution_v2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1d5uq8z1a6tj8f1eq4rno13mbsww' name='NH_Contribution_v2.csv' table='[NH_Contribution_v2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='cmte_id' ordinal='0' />
+            <column datatype='string' name='cand_id' ordinal='1' />
+            <column datatype='string' name='cand_nm' ordinal='2' />
+            <column datatype='string' name='contbr_nm' ordinal='3' />
+            <column datatype='string' name='contbr_city' ordinal='4' />
+            <column datatype='string' name='contbr_st' ordinal='5' />
+            <column datatype='integer' name='ZipCode' ordinal='6' />
+            <column datatype='string' name='contbr_employer' ordinal='7' />
+            <column datatype='string' name='contbr_occupation' ordinal='8' />
+            <column datatype='real' name='contb_receipt_amt' ordinal='9' />
+            <column datatype='date' name='contb_receipt_dt' ordinal='10' />
+            <column datatype='string' name='receipt_desc' ordinal='11' />
+            <column datatype='string' name='memo_cd' ordinal='12' />
+            <column datatype='string' name='memo_text' ordinal='13' />
+            <column datatype='string' name='form_tp' ordinal='14' />
+            <column datatype='integer' name='file_num' ordinal='15' />
+            <column datatype='string' name='tran_id' ordinal='16' />
+            <column datatype='string' name='election_tp' ordinal='17' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cmte_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cmte_id]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>cmte_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cand_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cand_id]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>cand_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cand_nm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cand_nm]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>cand_nm</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contbr_nm</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contbr_nm]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>contbr_nm</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contbr_city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contbr_city]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>contbr_city</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contbr_st</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contbr_st]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>contbr_st</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZipCode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZipCode]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>ZipCode</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contbr_employer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contbr_employer]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>contbr_employer</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contbr_occupation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[contbr_occupation]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>contbr_occupation</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contb_receipt_amt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[contb_receipt_amt]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>contb_receipt_amt</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>contb_receipt_dt</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[contb_receipt_dt]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>contb_receipt_dt</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>receipt_desc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[receipt_desc]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>receipt_desc</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>memo_cd</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[memo_cd]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>memo_cd</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>memo_text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[memo_text]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>memo_text</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>form_tp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[form_tp]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>form_tp</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>file_num</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[file_num]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>file_num</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tran_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tran_id]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>tran_id</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>election_tp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[election_tp]</local-name>
+            <parent-name>[NH_Contribution_v2.csv]</parent-name>
+            <remote-alias>election_tp</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Zip Code' datatype='integer' default-format='*00000' name='[ZipCode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Cand Id' datatype='string' name='[cand_id]' role='dimension' type='nominal' />
+      <column caption='Cand Nm' datatype='string' name='[cand_nm]' role='dimension' type='nominal' />
+      <column caption='Cmte Id' datatype='string' name='[cmte_id]' role='dimension' type='nominal' />
+      <column caption='Contb Receipt Amt' datatype='real' name='[contb_receipt_amt]' role='measure' type='quantitative' />
+      <column caption='Contb Receipt Dt' datatype='date' name='[contb_receipt_dt]' role='dimension' type='ordinal' />
+      <column caption='Contbr City' datatype='string' name='[contbr_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Contbr Employer' datatype='string' name='[contbr_employer]' role='dimension' type='nominal' />
+      <column caption='Contbr Nm' datatype='string' name='[contbr_nm]' role='dimension' type='nominal' />
+      <column caption='Contbr Occupation' datatype='string' name='[contbr_occupation]' role='dimension' type='nominal' />
+      <column caption='Contbr St' datatype='string' name='[contbr_st]' role='dimension' type='nominal' />
+      <column caption='Election Tp' datatype='string' name='[election_tp]' role='dimension' type='nominal' />
+      <column caption='File Num' datatype='integer' name='[file_num]' role='dimension' type='ordinal' />
+      <column caption='Form Tp' datatype='string' name='[form_tp]' role='dimension' type='nominal' />
+      <column caption='Memo Cd' datatype='string' name='[memo_cd]' role='dimension' type='nominal' />
+      <column caption='Memo Text' datatype='string' name='[memo_text]' role='dimension' type='nominal' />
+      <column caption='Receipt Desc' datatype='string' name='[receipt_desc]' role='dimension' type='nominal' />
+      <column caption='Tran Id' datatype='string' name='[tran_id]' role='dimension' type='nominal' />
+      <column-instance column='[cand_nm]' derivation='None' name='[none:cand_nm:nk]' pivot='key' type='nominal' />
+      <column-instance column='[contbr_employer]' derivation='None' name='[none:contbr_employer:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.732143' measure-ordering='alphabetic' measure-percentage='0.267857' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:contbr_employer:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;BERNIE 2020&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;KYMALIMI LLC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SNHU&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FIDELITY&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;INFORMATION REQUESTED&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TRADER JOES&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;US FIRST&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HCRS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RETIRED&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;UNIQUE LANDCAPES&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;YORK HOSPITAL&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NOT EMPLOYED&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CONCORD HOSPITAL&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;DARTMOUTH COLLEGE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;THYCOTIC&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CITY OF MANCHESTER&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;LIBERTY MUTUAL&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;STARBUCKS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BBN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;HURON CONSULTING GROUP&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;UNIVERSITY OF NEW HAMPSHIRE&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;EPISERVER&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NEW HAMPSHIRE PUBLIC DEFENDER&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;A. M. RAND COMPANY&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;GGI&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NORTHEAST CREDIT UNION&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;USPS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DHMC&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MOORE NANOTECHNOLOGY SYSTEMS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SELF EMPLOYED&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BEAN GROUP&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MANCHESTER SCHOOL DISTRICT&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UNIVERSITY SYSTEM OF NEW HAMPSHIRE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CONNECTION INC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DARTMOUTH HITCHCOCK&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MARINER BEVERAGES&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;CROTCHED MOUNTAIN REHAB CENTER&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DEKA RESEARCH &amp; DEVELOPMENT&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MARKEM-IMAJE CORP&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DTS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;TOWN OF BRADFORD NH&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FASTLY&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;NH DEPT EDUCATION&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LIBERTY MUTUAL INSURANCE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NONE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;STATE OF NEW HAMPSHIRE&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;SELF&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BEDFORD SCHOOL DISTRICT&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;JAMES JASPER ELECTRIC LLC&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;UNIVERSITY SYSTEM OF NH&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;GOFFSTOWN SCHOOL DISTRICT&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;UDACITY&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;WHERE TECHNOLOGIES LLC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DARTMOUTH&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DERRY MEDICAL CENTER&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MONADNOCK COMMUNITY HOSPITAL&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CITY OF NASHUA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MAD*POW&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;STATE OF NH&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;SELF-EMPLOYED&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BAE SYSTEMS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;GRAPPONE AUTO GROUP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ORACLE CORPORATION&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;YALE UNIVERSITY&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:cand_nm:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Biden, Joseph R Jr&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Trump, Donald J.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sanders, Bernard&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Campaign Contribution by city &gt;= 20,000</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='NH_Contribution_v2' name='federated.1e8ldf71p7umbe13rmf1a1y849gz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e8ldf71p7umbe13rmf1a1y849gz'>
+            <column caption='Contb Receipt Amt' datatype='real' name='[contb_receipt_amt]' role='measure' type='quantitative' />
+            <column caption='Contbr City' datatype='string' name='[contbr_city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column-instance column='[contbr_city]' derivation='None' name='[none:contbr_city:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contb_receipt_amt]' derivation='Sum' name='[sum:contb_receipt_amt:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_city:nk]'>
+            <groupfilter expression='SUM([contb_receipt_amt]) &gt;= 20000.' function='filter' user:ui-filter-by-field='true' user:ui-marker='filter-by'>
+              <groupfilter from='&quot;ACWORTH&quot;' function='range' level='[none:contbr_city:nk]' to='&quot;WOODSVILLE&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_city:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' />
+              <color column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' />
+              <text column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_city:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Donald Trump campaign contributions &gt;= 2,500</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='NH_Contribution_v2' name='federated.1e8ldf71p7umbe13rmf1a1y849gz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e8ldf71p7umbe13rmf1a1y849gz'>
+            <column caption='Cand Nm' datatype='string' name='[cand_nm]' role='dimension' type='nominal' />
+            <column caption='Contb Receipt Amt' datatype='real' name='[contb_receipt_amt]' role='measure' type='quantitative' />
+            <column caption='Contbr Employer' datatype='string' name='[contbr_employer]' role='dimension' type='nominal' />
+            <column-instance column='[cand_nm]' derivation='None' name='[none:cand_nm:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contbr_employer]' derivation='None' name='[none:contbr_employer:nk]' pivot='key' type='nominal' />
+            <column-instance column='[contb_receipt_amt]' derivation='Sum' name='[sum:contb_receipt_amt:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:cand_nm:nk]'>
+            <groupfilter function='member' level='[none:cand_nm:nk]' member='&quot;Trump, Donald J.&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_employer:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;A. M. RAND COMPANY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ACADIA KITCHENS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ACADIA KITCHENS LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ALLEGHENY CONTRACT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;AMERICAN AIRLINES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ANGLES CORP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ATTY PETER E HUTCHINS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;AUTOFAIR&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BAE SYSTEMS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BBN&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BEACON CAPITAL PARTNERS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BEAN GROUP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BEDFORD AMBULATORY SURGICAL CENTER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BEDFORD SCHOOL DISTRICT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BERNIE 2020&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BRADY SULLIVAN PROPERTIES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BRANT ENERGY, INC.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BROADVEST&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;BUSINESSTALK INC.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CENTER HARBOR DOCK&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CERAMCO&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CIRKUL&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CITADEL COMPUTER CORPORATION&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CITY OF MANCHESTER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CITY OF NASHUA&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;COLQUITT ORTHO&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;COMCAST OF WILLOW GROVE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CONCORD HOSPITAL&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CONNECTION INC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;COUNTY HOUSE RESEARCH&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CPM&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CROTCHED MOUNTAIN REHAB CENTER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;CSG OF EXETER&quot;' />
+              <groupfilter from='&quot;DARTMOUTH&quot;' function='range' level='[none:contbr_employer:nk]' to='&quot;DARTMOUTH HITCHCOCK&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DAVID W. WHITE AND SON INC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DECCO&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DEKA RESEARCH &amp; DEVELOPMENT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DELTA AIRLINES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DERRY MEDICAL CENTER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DH HEALTH&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DHMC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;DTS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ELLIOT HEALTH SYSTEM&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ENTERPRISE HOLDINGS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ENTREPENEUR&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ENTREPRENEUR&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;EPISERVER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;EXCHANGE PLACE PARTNERS LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;FASTLY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;FEDERAL GOVT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;FHC SALS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;FIDELITY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;FOREST PUMP CO&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;FULLER FOUNDATION INC.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;GGI&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;GILBANE BUILDING COMPANY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;GLOBAL KINETICS CORP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;GMI ASPHALT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;GOFFSTOWN SCHOOL DISTRICT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;GRAPPONE AUTO GROUP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HAMILTON LIVE POULTRY LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HANDSHAKE STUDIOS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HARRIS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HCRS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HERONFIELD ACADEMY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HITCHINER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HOMEMAKER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HURLBERT TOYOTA&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;HURON CONSULTING GROUP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;INN AT DEERFIELD&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;JAMES JASPER ELECTRIC LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;JAMIESON MANAGEMENT CO&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;JH FINANCIAL&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;JOHN HANCOCK&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;KING FOREST INDUSTRIAL, INC.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;KTBS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;KYMALIMI LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LAMOORE CONSULTING&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LEWIS BUILDERS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LIBERTY MUTUAL&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LIBERTY MUTUAL INSURANCE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LIQUID PC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LOBSTER TRAP RESTAURANT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LOCKHEED MARTIN&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;LYDALL PERFORMANCE MATERIALS, INC.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MAD*POW&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MANCHESTER SCHOOL DISTRICT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MARINER BEVERAGES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MARKEM-IMAJE CORP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MASCENIC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MASCY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MB TRACTOR AND EQUIPMENT&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MCLANE MIDDLETON&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MCLANE MIDDLETON P.A.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MERCK KGAA&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MICRO BENDS CORP.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MIDWEST ATC SERVICE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MMCT REALTY LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MONADNOCK COMMUNITY HOSPITAL&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;MOORE NANOTECHNOLOGY SYSTEMS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;N/A&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;NEW HAMPSHIRE PUBLIC DEFENDER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;NH DEPT EDUCATION&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;NIXON PEABODY LLP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;NOKIA&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;NORTHEAST CREDIT UNION&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;NORTHEAST RECLAIMING&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;OBRIENS GENERAL STORE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;OPENTEXT, INC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ORACLE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;ORACLE CORPORATION&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;PEASE DEVELOPMENT AUTHORITY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;PEGASYSTEMS INC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;PFIZER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;PLANET FITNESS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;POLYBOND&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;PRIVATE INVESTOR&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;RADIATION CONTROL SERVICES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;RAYTHEON&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;RAYTHEON COMPANY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;REJEANS CUSTOM QUALITY SIDING&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;REJEANS CUSTOM QUALITY SIDING LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;RENE C LECLERC INSURANCE AGENCY INC.&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;RENNITECH&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;RUDOLPH TECHNOLOGIES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SEABROOK MEDICAL&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SEABROOK PD&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SELECT DEMO SERVICES LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SHAWS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SHEEHAN PHINNEY BASS &amp; GREEN&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SNHU&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SOMERSWORTH HOUSE OF PIZZA&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SPINDEL EYE ASSOCIATES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;STARBUCKS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;STATE ELECTRIC CORP&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;STATE OF NEW HAMPSHIRE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;STATE OF NH&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;SUMMIT BUILDERS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;TAKE TWO INTERACTIVE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;THE GARLAND COMPANY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;THYCOTIC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;TOWN OF BRADFORD NH&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;TRADER JOES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;TRIMBLE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;UDACITY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;UNIQUE LANDCAPES&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;UNIVERSITY OF NEW HAMPSHIRE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;UNIVERSITY SYSTEM OF NEW HAMPSHIRE&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;UNIVERSITY SYSTEM OF NH&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;UPS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;US FIRST&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;USPS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;VYGON&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;WELLS FARGO BANK&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;WELLSCROFT FENCE SYSTEMS, LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;WENTWORTH HEALTH PARTNERS&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;WHERE TECHNOLOGIES LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;WHITE HORSE ADDICTION CENTER&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;WILLOUGHBY CAPITAL HOLDINGS, LLC&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;WOLCF&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;YALE UNIVERSITY&quot;' />
+              <groupfilter function='member' level='[none:contbr_employer:nk]' member='&quot;YORK HOSPITAL&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' included-values='in-range'>
+            <min>2500.0</min>
+            <max>45983.989999999962</max>
+          </filter>
+          <slices>
+            <column>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_employer:nk]</column>
+            <column>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:cand_nm:nk]</column>
+            <column>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' />
+              <color column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' />
+              <text column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:cand_nm:nk]' />
+              <text column='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_employer:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_employer:nk]</field>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_nm:nk]</field>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_st:nk]</field>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:receipt_desc:nk]</field>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]</field>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[yr:contb_receipt_dt:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DCA5C2E7-6DCD-4637-95CF-5DD894AF6FF8}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_employer:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[none:contbr_employer:nk]</field>
+            <field>[federated.1e8ldf71p7umbe13rmf1a1y849gz].[sum:contb_receipt_amt:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2B6EDE7F-281C-43FF-8237-BE3C80EE0FEC}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      S6e2pZ9ZAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAaxklEQVR4nO3dyXMc14Hn8W8ulZWVtaMWoLARCwFSJEWKlmRblt3t6ZkOx1zm0POXzX1O
+      HdERc+rDHHoiJsKesDw9Fm1JtEBSBEmQWApb7XvlnjmHoiDSpiQTlAmQ+T4X1JIv62WSv8r3
+      Xr6slMIwDBGEiJLPugKCcJZEAIRIU5998vs723x2f++s6hJpyYTGzOV5epZ71lV5o0ynEtSG
+      5qnLPxeAP9zb4b//z9+/cqWEl1fMJbkRk6n2R2ddlTfK9XKejXrn1OVFE0iItBcG4EJlip+9
+      u8zCdP6lV/ijSwsslHPfuYwWUzDiMQDShn7yeiGbfOnPexs1N+9Q+/Iz3NHwpcq55pj6nc+/
+      t5zd7/H14J8zHADgWSaeOT5dhc8B33Go3/mC+p0vCHz/ry6nvujF3aM2lUKGg0aX9y8v0B2Y
+      7Ne7TGUNlioFADw/4KjZY2E6z52tQ4amDUz+c+czBl4QsDxb5PF+g/lyjiAIOWz2WJotsF/r
+      ENdi5NMJCtkk//vWJgA3Ls7ym88fveq+eOPll9fpbD/Csy2GxwfEkiliCQPPMhkeHyDJCvFs
+      Dt+x8W2H4jvvIsky40aN9NwFmvc3yC5dZLC/S255je7uY4xiGd+2CHwfzzTJr6zR3tpEVhRK
+      125itpuEQUBm/sJZb/6pKJqGUZpBkiTMZh3XHBFLTL5Qw8BnWDtEVlVSM3MMj/aJJdPkV9a/
+      uwmkyDIxVcHQNfS4ylwph2W7SIDjeuTTBl8+OmBlrvhcuVp7wI8uLfDlo32WKwWCMCQIQ3Jp
+      g1IuRTmfJpvU6Q0tau3BSTk/EKcknjVuHJOcrjCuH2P1uozqx2QvrCLJEp5pEvo+McPAfeab
+      W5JlVCPJ4GCXqUtXad7/ktTMHM6ghzPo09vZgjCgt/uY0rWbyJr2TFnlLDbzBzc82iczv8So
+      dsiodogz6GMUyhiFMlanjRJP4JljwiD49gC0eiOCIKRa61DvDLixNs9wbNPqj6h3hnQGY+Ka
+      ygfvLFJr90+aS5mkzuJMnk9ub/HB5UVqnQGt3ojOYIwsSQzHNt2hyXGrz1wpi6YqyJLET68t
+      8XCvTlE0g5AUmXgmSzw7RcxIoSYMhkdV9FweJa4Tz00Rz2QxW03sQQ9n0MMzTWJGks7WJloy
+      hVGcpvnVl+RW1lETBlo6SxiGxLN54rk8RrlC4+4XqHoCe9BjeFglUShiD3pnvfmnpuoJFF0n
+      OV1BUhTCMMQdj9AyWWLJFGoiiZbOMNjfQY7F6O/vIj17Jvi//Y//81KjQMVsklZvhKLIhGEo
+      vsFfQTGX5MZ/+elLjQKZ7SaJqSKebaFocSRJ+hvW8Hx62VGgMAyxu230fAHPtl7cB/hrNXuT
+      fyzPD15lNcIpJaYmTU81rn/PksLXJElCz0/6sWpcf3EAZgoZ1hfLPN5vsL5Y5tO7OyzO5Fmd
+      K9HsDgnCEF1T2dyp8d76PPXOpB2fNnQOmz3WFkp0ByaN7pBKMcv2YZP1hTK3H+6TNuKsL07T
+      6AywXY9H1QYX50tUihkk4Na9XWzXe2075DxqfvUlnm2RW1kncF3MdhM9l0dLZzGbdQDUhEHn
+      8SZGaYbc8hr96jZqXMd3XcIgILu4DEBv7wlqwsC3LEJCCEIyi8v0qzsQhgS+R39vm8Klq/T2
+      npCeXSSzsMS4WcPqtDFK04xqR8SMJKqeoLuzRaJQIr+yTufxA5xhn9zKJdoP76HGdZLTs9j9
+      LoqmkZ67wKh+hKon6Fd3SJYrxJIp2lv3SU3PkqrM/6D77fCP/5fK+x9xfPsPZBaW6O1Otr10
+      9T0ad29j9zoY5Rnc0QijWCZRLL84AIauoakKfhCiyDIXF0oQTvoDjw+a3Fyf51G1QSmfIptO
+      cNTqk03q3N855sryDN2BiarIpA0dRZIIQ4hrKsuzBRzXI5PUOW71KWSTbO03ToY/W/0xyYQW
+      +QAEnsf0jQ9p3t9AkmUCzyOWTDM83MM1TWRFAQlyS2uYrQZh4OMM+vi2TRj4BN43+88ZDvAs
+      izDwCX0fu9/F6rUnfYaEQfn6+7jDAbFUGs80keRJt3BUOwLAd2ysTgt3PCRRKJNfWWd4tE8Y
+      BDjDwdP+yT6Fy9cYHlax+13GzRqqbpCaXcQZ9pEkCavbRlIUpHaD7OIyianSD77fQt9nWDvC
+      bDVIFEr4tgWESJJE/uJlBvu7BJ5Lbvkig4M9PNt6cSfY9wP+eH+P41afRmdIMZt8rn2payo/
+      u77CYaPHVrXBvSdHxFSF8lSaLx8dsDRbQI/HcDyPW/d2aHWH7Ne6zJdzSJLEg70a93eOkWWJ
+      VCJOEIZkkzqXFssMRtYPvmPeRO54BJLE8Ggfs90gcB3GzQZaMnWyTBiGuNYYSZLRUmmcYR/f
+      cVATxskyX78e+D5qXEdLpim/+yNixvODDRISU+tXSM8tEvg+o/oRo/oRznBAdnmN7vbWyWd6
+      tgWSRG75IrKi4gz7WO0WznCIrKrkltfpbj8/nJ1fWaf75BGqbmB12vjuDz/lQ88XaD/8imS5
+      AkhMrV+FP+uWhkFAfeMz4tk8w+P9F3eCU4k411YrVGsd+iOLIAzRVAXXDzAth7Sh0x2aFHNJ
+      FqfzeH7A3nGH7tBEkSUMXUNVJkOoK3NFtg9bDE0bTVXw/IC1hTKO67G13+DKcoU7jw9J6hoj
+      y8HQNXqvMLfjTfVsJ3h4dPC0abGGZ5qoegLfsXHHQ/R8Ec8cIykyna1N8hffIZYw8F0HZzhA
+      kmTURAJvPELPF05el2UFJR7Hdx20VAZn2Acgns5iD3rEEgbNrzbQ8wVSlXl8x0LRdJxhn1gy
+      hdVuomVydB4/IL+yTsxIMqofY/e75FfW6e1to6XSaKkMsqpgthoY5QreeISkThoazqCHnisw
+      PN5H1RMYxelX3m/PdoKd0QDfslCNJIQhnccPMMozpKZnJ+c/LBPCkJiRxOq2kWOxVxsFEn44
+      pxkFEsRcIEF4JSIAQqSJAAiRJgIgRJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiQAIkSYC
+      IESaCIAQaSIAQqSJAAiRJgIgRJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiQAIkSYCIESa
+      CIAQaSIAQqSJAAiRJgIgRJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiQAIkSYCIESaCIAQ
+      aSIAQqSJAAiRJgIgRJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiQAIkSYCIESaCIAQaepZ
+      V0D4xnohQz6hnXU13ihL2RQb9c6py4sAnCMPW32q/dFZV+PNEr5acdEEEiJNBOAcam7eobbx
+      Oe5o+FLlPHNM/c4XuOPvPoo4gz5hOPnqdJ5+hmdZeJZ5ugq/wUQT6BzKL6/T2X6EZ1sMa4do
+      yRRqwsCzTIZHB8iKgpbNETgOvm1TuHwNSZYZNWqk5xZpfvUl2eU1Bvu75JYv0tt9glEs41km
+      YRDgjsfkV9dpb91HVlRKV9/DbDcIg4DM/IWz3vzXShwBzrFx4xijNM2odoTV7TCqHZFdXCEE
+      vPGYwHVQdB3XHJ+UkWQZ1Ugy2N9hau0dml9tkCxXsHtdnEGf7vYjCAN6u48pXX0PORZ7rmzU
+      RG+L3wCSLBNPZ4hn82jJNIqeYHhYJZ7NocTj6LkptHQGs93CGfRxBj080yRmJGlvbRIzkiQK
+      ZZr3N8guX0Q1DLR0hjAIiGdzxLM5jOI0jbu3UeM69qDH4LBKYqqIPeid9ea/VqIJdA7JsRjp
+      ucWT54X1K8+9HzOSAKi6TmKqhGdbKFocI5HAKJZPlnu2ORNPZ59bJ4BRmj55PPvBz56uM/HD
+      bcgbQATgDZaYKgGgxvUzrsmbSwTgHGre38CzLPIra3SePELVdeKZHEZ5huHRPt3tLUpXbmAP
+      emipDMnyDIHvc3z7FpX3P6Jf3cEdD/HMMdmli7jDAen5Cwz2d7D7PXLLa4ybddzRgMDzSFXm
+      6Ve3Sc3Mk6rMnfXmv1aiD3AOBa7L9I0P6Fd3cAY9kCTsQZ/QD8gurpDIF0gUy3jmmHHjGIBx
+      s0YY+HiWid1t49sWueU1zGYdqzc5U2p1O0iyTHdnC7vbxu5P1u1ZJr7rouenznKzz4Q4ApxT
+      rjkCWSY5M0dh/QqtB/eef380ZFQ7BCQKl9+lv7eNEtPoPnkATMb1jz77f8z+5Bf0dp+clJMU
+      BVWLMzjYwyhNU1i/ijsekSiUqG98zuyPf/46N/OVyZLE5WL21OVFAM6hRGma4WGV4uV36Tx5
+      SPP+BsmZOdoP71G4fI3s0iqSLLPwi38kcGwIQwqXrhLP5LD73ZP1aOksVruJrCgMj/bJXpiU
+      ixkGsYSB7zrU73xB9sIq/eo2pWs3z3CrTycg5HF7cOryIgDnULoyf/J46uLlk8eJfAEARYuf
+      vKY8HcePZ3LP/T0pUyiRKJT+4jOS07MAZOaXAChdfe8HqPkZCMENglMXF30AIdLEEUB4K/iO
+      w/EXn4IkUfngZ8iK8leVEwEQ3gqKppFduogkSdQ3PieeyT43uc9sNZA1DaNQZnBYJZYwqHz4
+      sWgCCW+fWDJJbmUdzzKxOi0ULU5uZZ3c8hpIkJgqIsc0As8TRwDh7ZEoFAGJeHYyEJBdXAFA
+      S2cmE/0kiXgmR+32LcrX32ewvyMCILw9lNjTy0mfjow9O9fpa7IaY+6jXyJJEloqIwIgvD3c
+      8Qg1YRB47tNLJcNJU8d18F0XCFF1g8B1kBV1clLwjOssCD+Y6r//htkPP2ZwsEfo+yjxOGEQ
+      oGWyDI8OkGSZZGmGzuNN0vNLpCvzohMsvD0yC0v09rZPnqfnLtB98ggJidyFVbKLK9i9DkZx
+      mnH9CPizYdCrH67zX8unn1chnF4qHmN/MP7+BYVvpeoJYkYSZ9BH0XUGB3vM/vjneLZF58kD
+      QJqcWZckxs06yPLzAaiNLO40u9+yeuFvKadrpLXY9y8ofKvc0sVvfe/Pr3W+8MtfAWIqhBBx
+      LwzA4LDKwaefMDw6eOkVHn9xi/bDr05+duNFXHM8mYvO5Azds58rCK/TC0eB0rMLmM06Rmma
+      g1ufkCiUSc8tYjbrDA73CINgcg1qsYzZapBdXjuZqSirKrFUmt7uE8xWnWS5wqh+hKyopOcW
+      6Ve3Sc7MEXgencebeJbJ/Ee/BGBwsEt6duG1bbwgfGcTKAwD9FwBwhDfsbF7HfR8AS2ZRktn
+      8F2HwuV3MZu1Py/I8KhK4fK7WJ0WWjqDahiY7QZWv4vd7eCOhiQKJfR8gTAMCX0fSRGjssLr
+      9a3/45Izc0iyQnK6gqyodLYfkSxXUDSNwPeQFZXh8QHtR/fJLi4zONgjPbdIEPh4tsXshx/T
+      +OrLk/nmAJ5lYjgORnkGRYvTr26jJgwIQxr3NyisX8XqtNCfHk0E4W9NCp9prP/LxmP+dXP3
+      ry789Zm3k5VJ0g9buwj5ehRI/Djuy7lezr/Sr0N/axPIHY8InzZ9wjDEs0xGjWPGrTqB72O2
+      GihxHXc0mHRkwxB3PDwp41km42adMPBPXTlB+Ft7YQDCMOTg099itZu0Nu9CENB6cI/e7hPs
+      bofmV19iD/rUNz6nef8OgecRBj47v/lf+LZNa/Muzc07eJb5FxdzC8J58sIAWJ0WYRDSefLw
+      mwUVBaNYxihNEwYBuaVVJEXGd2zMdoN+dZeYkXp6xg3CIKC3s4WeL76eLRGEU3hxALptFn7+
+      D8QzOWJGkuM//QG9UEKJaUiygp7Lc/zFLWKJJEZpmtKVG/iuzeLf/SdkVUXRE2ipDKV3f4Qz
+      7H/nOQFBOEsvHAXKr6wDULh09YWFtFSa7IXV514rrF997u/X9Gz+lSspCH8rYiqEEGkiAEKk
+      iQAIkSYCIESaCIAQaSIAQqSJAAiRJgIgRJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiQAI
+      kSYCIESaCIAQaSIAQqSJAAiRJgIgRJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiVuynCPr
+      hQz5hHbW1XijLGVTr3R/ABGAc+Rhqy9ukPGyXvF3l0UTSIg0EQAh0kQAzqHGvT+x8+t/wx0N
+      X6rc8PiQg1uf0Ny8853LdbY2CYMAgN7uEwDGjRqj2tHpKvwGE32Ac2jq4jtIikp/fwffntyj
+      Tc8XsHtt3NEQZzQkkS/iORah51H58GPUuI7v2BQuXWN4tE/97m08c0wsmcLudtBSaXzXYVQ7
+      JLOwTH9/Z3Kft9ik0+27zkkookQcAc4xSVEpXn2PMPAZ149AkiheuUGqMk8slSKWMNDSGQLP
+      JfAnNyM0Ww08yyQMAoximcBxmFq/gqLF8W0LRYtDGOKZJslyBSQJz7YYN47Rkil8xz7jrX69
+      xBHgHJK1GPmVNUBCkmUKl67imSaxVBpFjZFfvYwkQfP+HXJLq9j9HkpMI1WZx2zWyCyuIElg
+      ddpkFpZBgngmS3K6gqQoKHEdJRZj3GqQv3gZCYnMwjLxbA7fcc56818rEYBzSJLkyTf1UzEj
+      RcxInTxXFQWA6RsfABB/5jZUqcr8yWOjNP3NShX1uXUCJEszJ48T8cl7qp74AbbgzSGaQOdQ
+      GAQMj/bxbAur1yEMQ+xBD9918WwLAM+28CyTwPcZHFbxHZvh8QFWp4VnWSf3dg7DELvfPXnu
+      Ow79/R0Gh1Vx80JEAM6lxt3bSLKMZ445vPU7vPGIwz/+O+Nmje7jyW1oO1ubdB4/oP3wHoHv
+      4Y5H9Ks7dHe2aN7/kjDwaT/8CmfQ4+DW7wg8j87jB0iyPLkNri9uYA4iAOdSGIaEIfSrO6Tn
+      L9De2iSeyjz3/uBgj351m+zSRcaNGla3jdVtgyQRBgGNO7exum06Tx4iSRKj430AZFVFS+eI
+      Z3JIknRWm3huPNcHmEkluD4tbmt6FlJajGpvMg1Cz00xPKqipbMoWpxx45j0whJKTENNGLij
+      IeXr7xMGAaPjAyRZRpJk8quXyK+s03nykOyFVbrbjwCYvv4+nSePMNtNBodV1Hgc6Wk/Iuqk
+      8JmG4L9sPOZfN3fPsj6RldM10lpMzAV6SdfL+VeaDCeaQEKkvTAAg8Mq9Y3PGR4fvPQKW5t3
+      GdWPv3MZ33XwLBPgudP9dq/70p8nCK/ihecBJidU6hilGVoP7hJLpkmWZ7D7PYZPO1OSrGAU
+      y4xqh+RXLxMzkgD4jo3VaSLJMoPDPTLzS4wbx4CEUSwzONonWZ7Bdxyc4QCr02L+o78HoPXw
+      LrMf/vz1bLkg8C1HgK9HB8LAxzNNPHOMb9uM6kfIikrgesiKgt3rkF+9TH//+X5DojhN8/4G
+      +dXLDPZ3n84xmYxlW+0GZruJM+wTSxgkpoqTzwpDJEl0zITX61vPBMezOSRJJlmZQ5YVWg/v
+      oecLqHqCmOEgxzSsTovm/Q2yF1YZHh+QmpnDHvbhsMrMzR/Tur9Bcnr2ZMTBM8eoiSRaMo0S
+      1+nvPUHRE4RBQP3uF2QWl7A6LfR84bXtAOENJ4Gunv6L85VGgcx2Ez03ReD7SJKErIqZFacl
+      RoFO50eVKS5PJ09d/pX+x37dfFFkMZgknI0whPp4fOryLwzAuNWgt7NFPJvHt0x8dzKl1uq0
+      kGQFWVHpVbdJTc8S+B6p6TnsQQ9V1+k8eTh53fMwStOYrQaSopCcnmWwv0t6bpHBwR5IkCxX
+      MNst3PGQeCaLZ5rIMY3AtcksLNO8v4FnmWTml2g/+gp9qkSyNE1v9wmJYgnPsnBHA9Jzi3Sf
+      PCJVmcMZDvBti1RlnvbWJslyhZhhIKsxhrVD0rOLDA+rxJIpptbeOfWOE94OL/zq9swRvuvg
+      jocEvkd6dgG728HudTHbTVxzTGHtCnavg6LpHN3+FD1fwB2NCFyXeG4Kq9sm8FysXge73wPA
+      6rZOJmdZnTaDwyqxZBJ3PGRUPyZwXYZHVcx2CwDfccgurjBqHKNPFfEdi151h+mbP3466WtM
+      bnmNUf0YZzRAkmUCzyVzYRXfdTCK0+SW17A6bZzRYNIZf/r5iUJJTAZ7i7i2zcZvf8udTz7B
+      f4l5Ti88AkiyQunKDVoP7uE7NrWNz5n7yS9o3t8AWUaN64RhgO84pCpzjBvHKLEY8WyOUu4m
+      jTtfIKsqzmiIGtdPLtZ4VjyTZXC0T2KqxLhZJ/R9cstrpOcWOfr8U6ZvfIBrjrC6bbIXVtn5
+      zb+RWVhCkuTJLEjXJQxDxo0a+dVLaOnM5Eqn6g7Hn/+exb/7R7rbWyefJ6sxSldvIqsKlfRH
+      1P70R+Y++uXL72nhXIrF41RWVpAkiZ2NDVTtm5+XCcOQ9tEhakyjMDdHbWeHRCrF5Z/+9MUB
+      iGfzdB5vkltZQ1E1YskU42aNhZ//x8m0WnNMv7pD8Z13kSSJ3NJFACRZpvP4AcWr7+E7Nmaz
+      Rm55ndbmHcaNGkgy4/oxmYVltFQKRU8gqyoLH/8Dvj2Zwqsl0yfz3Evv3CCezRH4Hkv/4T8T
+      eC6qnqC7/YjiO9cJfA8tnSUMAuxel97uY0pXb6Kl01jdDun5RWRVJXthFYDWgzukKwuY7Sb5
+      i6L58zZbvHKFzU8/xXVs0lMFZlcvosRiDLtd8tPT2KYJYSjmAp0XYhTodG7OTFHITM5bWaPJ
+      vnNtm1Q+T3VzE991Kc7Po8RiyLKMY1nc/d3vWHv/fUa9rrgiTHh76Mnkc38X3/nLo3zcMHj/
+      V78inkhQWlgQk+GEaJEkiXjim8s+xRFAeGs8/Owzlq5d4+DRQzrHx0iSzIWrV7nzySd8/E//
+      xK//+Z9ZvXkT13GYWVriT7/5tQiA8PZoVPewn54Uy89UmFleYv/BQzRd53Bri9zMzMmIpCTL
+      ZIpFEQDh7TFVmWXlxg2qm5s0D/bp1evMra+jxmLs3L1DaX4BJAlFVQjDkPzMjAiA8Pa4/JOf
+      ALD63nuTk5xhiCTLFOfnWbp2DSQJwpAgCJBlmVy5LAIgvD2evcj/Ly74//q5JD03d02MAgmR
+      JgIgRJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiQAIkSYCIESaCIAQaSIAQqSJAAiRJgIg
+      RJoIgBBpIgBCpIkACJEmAiBEmgiAEGkiAEKkiQAIkSYCIESaCIAQaSIAQqSJAAiRJgIgRJoI
+      gBBpIgBCpIkACJEmAiBE2nM/jz6TSnB9On9WdYm0lBYjoSrkE9r3LyycWM6nySS+f7lv8/8B
+      8Jxr2AkQ2uUAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
